@@ -3,57 +3,65 @@
 body {
   font-family: sans-serif;
 }
-  .material-icons {
+
+.material-icons {
   font-size: 3em !important;
 }
 
 header {
   background: white;
 }
+
 h1 {
   font-size: 3em;
   font-family: 'Dosis', sans-serif;
   font-weight: 600;
 }
+
 #illustrations-menu h1 {
   margin-top: 100px;
 }
+
 h2 {
   font-size: 3em;
   margin-bottom: 1em;
   text-align: center;
   font-family: 'Dosis', sans-serif;
 }
+
 a {
   text-decoration: none;
   color: black;
   font-weight: 500;
   font-size: 1.2em;
-  }
+}
 
 li {
   font-size: 1.5em;
-font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   text-decoration: none;
 }
+
 .lien {
   font-family: 'Montserrat', sans-serif;
   font-size: 2em;
   text-align: center;
 }
+
 p {
   font-size: 20px;
-font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   text-decoration: none;
-
 }
-span { font-weight: bold;
+
+span {
+  font-weight: bold;
   font-size: 1.5em;
-
 }
+
 .text-contact p {
   font-size: 20px;
-font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', sans-serif;
   text-decoration: none;
   text-align: center;
   margin-left: auto;
@@ -64,10 +72,20 @@ font-family: 'Dosis', sans-serif;
   padding-bottom: 20px;
   color: grey;
 }
+
 .illustrations-content h2 {
   padding-top: 20px;
 }
 
-.popup h2{
+.popup h2 {
   text-align: center;
+}
+
+.voir-plus:hover{
+  color: blue;
+}
+
+.voir-plus{
+  font-weight: bold;
+  text-decoration: underline;
 }
