@@ -1,0 +1,368 @@
+header {
+  position: sticky;
+  top: calc(-100vh + 110px);
+    background: white;
+
+}
+body{
+  margin: 0;
+}
+/*
+body{
+  overflow: hidden;
+
+}
+*/
+#header1 {
+  background : url('images/background.jpg') no-repeat top center;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.logo-titre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+      margin-top: -100px;
+}
+.logo-titre img  {
+  width: 90px;
+  height: 90px;
+  margin: auto 0 auto 0;
+}
+.logo-titre h1 {
+  margin: 0;
+}
+
+section {
+margin: 0 auto;
+}
+section {
+margin-top: -110px;
+}
+
+#modal {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position:  absolute;
+  top: 0;
+
+  z-index: 100;
+}
+
+.popup {
+  width: 450px;
+  height: 550px;
+  background: white;
+  margin: auto;
+  opacity: 2;
+  z-index: 101;
+  overflow: scroll;
+}
+
+.popup p {
+  padding: 30px;
+}
+
+.cookie {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.button-action {
+  display: flex;
+  justify-content: center;
+}
+#accept.button {
+  margin: 20px;
+}
+#refuse.button {
+  margin: 20px;
+}
+
+.popup img {
+  height: 180px;
+  width: 180px;
+  transform: rotate(360);
+}
+
+
+
+
+.centrer-menu{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.toggle-menu {
+text-align: center;}
+
+#main-menu:target {
+  display: block;
+  .toggle-menu{
+    display:none;
+  }
+}
+#hide:target{
+  display: none;
+}
+
+#main-menu{
+  max-width: 100%;
+  transition: 2s all ease;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+}
+
+#main-menu ul {
+padding-left:0;
+border: 0;
+list-style-type: none;
+
+}
+a:hover {
+  color: blue;
+}
+
+@media (min-width : 640px) {
+  #main-menu {
+    position: static;
+  background: transparent;
+display: block;
+justify-content: center;
+  justify-content: center;
+    transition: 2s all ease;
+  }
+
+  #main-menu ul {
+    display: flex;
+    justify-content: space-around;
+  width: 100%;
+
+
+}
+.toggle-menu {
+    display: none;}
+
+.test1 img{
+  position: absolute;
+      left: -999em;
+}
+
+}
+
+
+#step1 {
+padding-top: 140px;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+#step2 {
+  padding-top: 140px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+#step3 {
+  padding-top: 140px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+
+}
+
+#step4 {
+  padding-top: 140px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+.la-vie-ruche {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+    padding-bottom: 30px;
+  }
+
+
+#step-2-first {
+  display: none;
+
+}
+
+
+@media (max-width: 639px) {
+  #main-menu{
+    display: none;
+    pading: 0;
+  }
+
+
+    li{display: flex;
+      justify-content: center;  }
+
+  a {  margin: auto;
+      padding: 20px;}
+
+
+  ul {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    padding-top: 20px;
+    border-top: 1px solid black;
+  }
+
+  #main-menu ul {
+margin: 0;
+}
+
+
+
+
+
+.test1 img{
+  width: 100vw;
+}
+}
+@media (max-width: 1200px) {
+  .main-content{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .image-background2 img {
+    max-width: 300px;
+    height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+  }
+  .image-background img{
+    position: absolute;
+        left: -999em;
+  }
+  .la-vie-ruche {
+  padding-bottom: 50px;
+  }
+  }
+  @media (min-width: 1200px) {
+    .image-background img {
+      max-width: 100%;
+      height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+    }
+
+    .image-background2 img{
+      position: absolute;
+          left: -999em;
+    }
+    }
+.main-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-content  {
+  flex-basis: 600px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 1000px;
+  min-height: 200px;  }
+
+  .text-content-step2  {
+    flex-basis: 500px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    max-width: 80vw;
+    min-height: 200px;
+  margin-right: 50px;}
+}
+
+.text-content-step2  {
+  flex-basis: 500px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  max-width: 80vw;
+  min-height: 200px;  }
+figure {
+  margin-left: 0;
+}
+
+#step-2-first img {
+width: 564px;
+height: auto;
+}
+
+.la-vie-ruche img {
+  padding-right: 50px;
+}
+
+.la-vie-ruche:hover {
+  box-shadow: 3px 4px 13px -1px rgba(0, 0, 0, .10);
+}
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+
+a {
+  color:#fff;
+  text-decoration:none;
+}
+footer {
+  text-align: center;
+
+  border-top: 1px solid black;
+  font-weight: bold;
+}
+
+#step4 img {
+  width: 450px;
+  height: 450px;
+  padding: 10px;
+
+}
+.box-images {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+iframe {
+    padding: 10px;
+}
+
+.rotate {
+  animation: rotation 4s infinite linear;
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 40px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
